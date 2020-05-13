@@ -1,0 +1,17 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-bookshelf",
+      "settings": {
+        "client": "mysql",
+        "host": "localhost",
+        "port": 3306,
+        "database": "doceria_freitas",
+        "username": "root",
+        "password": "Bruna575"
+      },
+      "options": {}
+    }
+  }
+}
