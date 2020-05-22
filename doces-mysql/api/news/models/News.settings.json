@@ -17,10 +17,8 @@
     "description": {
       "type": "text"
     },
-    "image": {
-      "model": "file",
-      "via": "related",
-      "plugin": "upload"
+    "img_id": {
+      "model": "files"
     }
   }
 }

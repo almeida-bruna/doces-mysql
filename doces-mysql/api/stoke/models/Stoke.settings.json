@@ -1,0 +1,33 @@
+{
+  "connection": "default",
+  "collectionName": "stokes",
+  "info": {
+    "name": "stoke",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "product": {
+      "model": "product"
+    },
+    "quantity_in_stoke": {
+      "type": "integer"
+    },
+    "quantity_input": {
+      "type": "integer"
+    },
+    "quantity_exit": {
+      "type": "integer"
+    },
+    "value_exite": {
+      "type": "decimal"
+    },
+    "value_in_stoke": {
+      "type": "decimal"
+    }
+  }
+}

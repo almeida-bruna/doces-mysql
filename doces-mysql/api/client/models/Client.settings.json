@@ -17,19 +17,16 @@
     "email": {
       "type": "email"
     },
-    "password": {
+    "password_hash": {
       "type": "password"
     },
     "cpf": {
       "type": "integer"
     },
-    "cellphone": {
+    "cell_phone": {
       "type": "integer"
     },
-    "sex": {
-      "type": "boolean"
-    },
-    "dateofbirth": {
+    "dt_nasc": {
       "type": "date"
     },
     "cep": {
@@ -52,6 +49,9 @@
     },
     "state": {
       "model": "state"
+    },
+    "sex": {
+      "model": "sex"
     }
   }
 }

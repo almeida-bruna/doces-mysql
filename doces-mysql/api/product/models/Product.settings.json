@@ -14,19 +14,26 @@
     "name": {
       "type": "string"
     },
-    "value": {
+    "status": {
+      "type": "string"
+    },
+    "price": {
       "type": "decimal"
     },
-    "image": {
-      "model": "file",
-      "via": "related",
-      "plugin": "upload"
+    "unity": {
+      "type": "integer"
     },
     "description": {
       "type": "text"
     },
     "category": {
       "model": "category"
+    },
+    "value": {
+      "type": "decimal"
+    },
+    "img_id": {
+      "model": "files"
     }
   }
 }

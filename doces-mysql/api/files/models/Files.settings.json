@@ -1,8 +1,8 @@
 {
   "connection": "default",
-  "collectionName": "promotions",
+  "collectionName": "files",
   "info": {
-    "name": "promotions",
+    "name": "files",
     "description": ""
   },
   "options": {
@@ -13,12 +13,6 @@
   "attributes": {
     "name": {
       "type": "string"
-    },
-    "newValue": {
-      "type": "decimal"
-    },
-    "product": {
-      "model": "product"
     }
   }
 }

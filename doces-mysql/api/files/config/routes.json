@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/clients",
-      "handler": "Client.find",
+      "path": "/files",
+      "handler": "Files.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/clients/count",
-      "handler": "Client.count",
+      "path": "/files/count",
+      "handler": "Files.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/clients/:id",
-      "handler": "Client.findOne",
+      "path": "/files/:id",
+      "handler": "Files.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/clients",
-      "handler": "Client.create",
+      "path": "/files",
+      "handler": "Files.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/clients/:id",
-      "handler": "Client.update",
+      "path": "/files/:id",
+      "handler": "Files.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/clients/:id",
-      "handler": "Client.destroy",
+      "path": "/files/:id",
+      "handler": "Files.destroy",
       "config": {
         "policies": []
       }

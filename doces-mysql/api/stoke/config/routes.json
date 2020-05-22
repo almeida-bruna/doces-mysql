@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/clients",
-      "handler": "Client.find",
+      "path": "/stokes",
+      "handler": "Stoke.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/clients/count",
-      "handler": "Client.count",
+      "path": "/stokes/count",
+      "handler": "Stoke.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/clients/:id",
-      "handler": "Client.findOne",
+      "path": "/stokes/:id",
+      "handler": "Stoke.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/clients",
-      "handler": "Client.create",
+      "path": "/stokes",
+      "handler": "Stoke.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/clients/:id",
-      "handler": "Client.update",
+      "path": "/stokes/:id",
+      "handler": "Stoke.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/clients/:id",
-      "handler": "Client.destroy",
+      "path": "/stokes/:id",
+      "handler": "Stoke.destroy",
       "config": {
         "policies": []
       }
