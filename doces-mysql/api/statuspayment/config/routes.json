@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/statuspayments",
+      "handler": "Statuspayment.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/statuspayments/count",
+      "handler": "Statuspayment.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/statuspayments/:id",
+      "handler": "Statuspayment.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/statuspayments",
+      "handler": "Statuspayment.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/statuspayments/:id",
+      "handler": "Statuspayment.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/statuspayments/:id",
+      "handler": "Statuspayment.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

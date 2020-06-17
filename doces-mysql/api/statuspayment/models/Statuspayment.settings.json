@@ -1,8 +1,8 @@
 {
   "connection": "default",
-  "collectionName": "states",
+  "collectionName": "statuspayments",
   "info": {
-    "name": "state",
+    "name": "statuspayment",
     "description": ""
   },
   "options": {
@@ -12,9 +12,6 @@
   },
   "attributes": {
     "name": {
-      "type": "string"
-    },
-    "initials": {
       "type": "string"
     }
   }
